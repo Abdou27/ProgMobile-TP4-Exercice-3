@@ -1,50 +1,16 @@
-FragmentExample_start - Starter Code
-====================================
+# ProgMobile-TP4-Exercice-3
+Exercice 3 du TP4 du module Programmation Mobile en L3 à l'université de Tours
 
-Note: Rename project folder to "FragmentExample" before opening
-in Android Studio.
+3ème exercice (Codelab). Première et deuxième tâches effectuées ainsi que le devoir.
 
-Use as starter code for the FragmentExample app. It provides
-an image, and the title and text of a magazine article.
+Question 1 :
+Which subclass of Fragment displays a vertical list of items that are managed by an adapter?
+- ListFragment()
 
-Introduction
-------------
+Question 2 :
+Which of the following is the best sequence for adding a fragment to an activity that is already running?
+- Declare the location for the fragment inside the activity's layout file using the <FrameLayout> view group. Then get an instance of the fragment and FragmentManager, begin a transaction, use the add() transaction, and commit the transaction.
 
-This app, based on the Empty Activity template, provides a starter
-layout with an image, and the title and text of a magazine
-article. The UI elements are arranged to provide a space at the
-top for adding a fragment.
-
-Pre-requisites
---------------
-
-You need to know how to:
-- Open, build, and run apps with Android Studio.
-- Use the layout editor to create a UI with a ConstraintLayout.
-
-Getting Started
----------------
-
-1. Download the code.
-2. Open the code in Android Studio.
-3. Run the app.
-
-License
--------
-
-Copyright 2017 Google, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-  http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+Question 3 :
+Which statement gets a reference to a fragment using the fragment's layout resource?
+- fragment = new SimpleFragment();
