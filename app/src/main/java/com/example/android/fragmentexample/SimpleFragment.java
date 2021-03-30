@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -14,6 +15,8 @@ import android.widget.Toast;
  * A simple {@link Fragment} subclass.
  */
 public class SimpleFragment extends Fragment {
+
+    Button xButton;
 
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final int YES = 0;
@@ -60,6 +63,18 @@ public class SimpleFragment extends Fragment {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
                 Toast.makeText(getContext(), "My Rating : " + rating, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        xButton = rootView.findViewById(R.id.exit_button);
+        xButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (getActivity() instanceof MainActivity) {
+                    ((MainActivity)getActivity()).closeFragment();
+                } else {
+                    ((SecondActivity)getActivity()).closeFragment();
+                }
             }
         });
 

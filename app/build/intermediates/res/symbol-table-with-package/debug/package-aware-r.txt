@@ -672,6 +672,7 @@ id disableHome
 id edit_query
 id end
 id end_padder
+id exit_button
 id expand_activities_button
 id expanded_menu
 id forever
@@ -688,6 +689,7 @@ id info
 id italic
 id line1
 id line3
+id linear1
 id listMode
 id list_item
 id media_actions
@@ -695,6 +697,7 @@ id message
 id middle
 id multiply
 id never
+id next_button
 id none
 id normal
 id notification_background
@@ -704,6 +707,7 @@ id open_button
 id packed
 id parent
 id parentPanel
+id prev_button
 id progress_circular
 id progress_horizontal
 id radio
@@ -792,6 +796,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout activity_second
 layout fragment_simple
 layout notification_action
 layout notification_action_tombstone
@@ -850,17 +855,18 @@ string app_name
 string article1
 string article2
 string close
-string exception_message
-string hello_blank_fragment
+string next
 string no
 string no_message
 string open
+string prev
 string question_article
 string question_song
 string search_menu_title
 string status_bar_notification_info_overflow
 string title1
 string title2
+string x
 string yes
 string yes_message
 style AlertDialog_AppCompat
